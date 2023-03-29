@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+aside,
+footer,
+main,
+nav,
+section,
+article,
+header {
+    display: block;
+
+}
+
+body {
+    background: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Nunito';
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 123px;
+}
+
+
+
+#logo {
+    background-image: url('../images/hack.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    top: 40px;
+}
+
+#logo span {
+    position: absolute;
+    width: 154px;
+    height: 33px;
+    left: 38px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+    color: #3E3F43;
+
+}
+
+h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+main {
+    width: 100%;
+    background-color: #F9BDBD;
+    height: 555px;
+}
+
+main section .img {
+    position: absolute;
+    width: 426px;
+    height: 388px;
+    left: 40px;
+    top: 206px;
+}
+
+main p {
+    position: absolute;
+    width: 448px;
+    height: 98px;
+    left: 506px;
+    top: 206px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+
+main .parg2 {
+    position: absolute;
+    width: 448px;
+    height: 66px;
+    left: 506px;
+    top: 320px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+main .about h2 {
+    position: absolute;
+    height: 40px;
+    width: 89px;
+    left: 40px;
+    top: 702px;
+    border-radius: nullpx;
+
+}
+
+.abouttxet {
+    height: 394px;
+    width: 741px;
+    left: 40px;
+    top: 766px;
+    border-radius: nullpx;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: justify;
+    color: #000000;
+}
+
+
+main span {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 40px;
+    top: 1243px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.b1 {
+
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 40px;
+    top: 1307px;
+    background: #FDEDE5;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+
+    border-radius: 25px;
+}
+
+
+.b2 {
+
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 264px;
+    top: 1307px;
+    background: #EBF1FF;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border-radius: 30px;
+}
+
+.b3 {
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 488px;
+    top: 1307px;
+    background: #EBFFEC;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border-radius: 30px;
+}
+
+.b4 {
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 712px;
+    top: 1307px;
+
+    background: #FFEBFC;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+
+    border-radius: 30px;
+}
+
+.b5 {
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    left: 936px;
+    top: 1307px;
+    background: #FFFEEB;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border-radius: 30px;
+}
+
+.circle1 {
+
+    height: 80px;
+    width: 80px;
+    margin-left: 24px;
+    margin-top: 24px;
+    border-radius: 100px;
+    background: #FFFFFF;
+    border: 1px solid #D7DFE9;
+    border-radius: 100px;
+}
+
+
+
+.listarea {
+    position: absolute;
+    width: 364px;
+    left: 40px;
+    top: 1611px;
+}
+
+.list1 {
+    position: absolute;
+    height: 141px;
+    width: 364px;
+    left: 40px;
+    top: 1675px;
+    border-radius: nullpx;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: justify;
+    color: #000000;
+}
+
+#choose {
+    position: absolute;
+    width: 270px;
+    height: 40px;
+    left: 40px;
+    top: 1856px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+#exc {
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    left: calc(50% - 77px/2 - 37.5px);
+    top: 128px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+
+.folwus {
+
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 40px;
+    top: 2731px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #333333;
+}
+
+.backgroundview {
+    height: 40px;
+    width: 120px;
+    background-color: blue;
+    margin-left: 24px;
+    margin-top: 58px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    
+  
+}
+.backgroundview:hover{
+    color: rgba(23,31,70,1);
+    background-color:darkcyan;
+}
+
+.backgroundview section{
+    height: 24px;
+    width: 88px;
+    margin-left: 16.839111328125px;
+    margin-top: 8px;
+    border-radius: nullpx;
+
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+
+display: inline-block;
+align-items: center;
+text-align: center;
+
+color: #171F46;
+
+}
+.viewhover1:hover{
+    color: #FDEDE5 ;
+}
+
+.viewhover2:hover{
+    color: #EBFFEC;
+}
+.viewhover3:hover{
+    color: #EBF1FF;
+ }
+ .viewhover4:hover{
+    color: #FFEBFC;
+ }
+ .viewhover5:hover{
+   color: #FFFEEB;
+ }
+ #imageend {
+    position: absolute;
+    width: 1120px;
+    height: 508px;
+    left: 40px;
+    top: 1920px;
+}
+
+ .footer {
+    background-image: url("../images/footer.png");
+    position: absolute;
+    width: 100%;
+    height: 301px;
+    top: 2699px;
+   
+}
+
+.followus {
+    height: 25px;
+    width: 81px;
+    margin-left: 40px;
+    margin-top: 32px;
+    Font-family: Nunito;
+    Font-style: SemiBold;
+    Font-size: 18px;
+    Line-height: 25px;
+    Line-height: 100%;
+    
+}
+
+.social{
+    position: relative;
+    top: 16px;
+    margin-left: 40px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 14px;
+    color: rgba(141, 141, 141, 1);
+    Font-style: Regular;
+    Font-size: 14px;
+    Vertical-align: Top;
+}
+
+#copyrights {
+    height: 17.652748107910156px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 70px;
+    color: rgba(141, 141, 141, 1);
+    Font-style: Regular;
+    Font-size: 14px;
+    Vertical-align: Top;
+} 
+
